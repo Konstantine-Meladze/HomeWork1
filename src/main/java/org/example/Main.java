@@ -18,5 +18,21 @@ public class Main {
             System.out.println("ამ მასივში არის " + evenCount + " ლუწი რიცხვი");
         }
     }
+    static void checkNumber(int number) {
+        if (number > 0) {
+            System.out.println("დადებითი");
+        } else if (number < 0) {
+            System.out.println("უარყოფითი");
+        } else {
+            System.out.println("ნული");
+        }
+    }
+    static void hasTeen(int a, int b, int c) {
+        if ((a >= 13 && a <= 19) || (b >= 13 && b <= 19) || (c >= 13 && c <= 19)) {
+            System.out.println("True");
+        } else {
+            System.out.println("False");
+        }
+    }
 }
 
